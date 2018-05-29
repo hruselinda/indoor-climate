@@ -1,105 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="INSPIRO" />
-    <meta name="description" content="Themeforest Template Polo">
-    <!-- Document title -->
-    <title>Вътрешен климат</title>
-    <!-- Stylesheets & Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700,600|Montserrat:400,500,600,700|Raleway:100,300,600,700,800" rel="stylesheet" type="text/css" />
-    <link href="css/plugins.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-
-    <!-- Template color -->
-    <link href="css/color-variations/red-dark.css" rel="stylesheet" type="text/css" media="screen">
-
-</head>
-
-<body>
-
-
-    <!-- Wrapper -->
-    <div id="wrapper">
-
-        <!-- Topbar -->
-        <div id="topbar" class="topbar-fullwidth visible-md visible-lg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <ul class="top-menu">
-                            <li><a href="#">Връзка с нас : 032 / 62-37-76 </a></li>
-                            <li><a href="#">borislav.dimchev@indoorclimate.org</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6 hidden-xs">
-                        <div class="social-icons social-icons-colored-hover">
-                            <ul>
-                                <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li class="social-youtube"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end: Topbar -->
-
-        <!--HEADER-->
-        <header id="header" class="header-fullwidth header-transparent header-plain">
-            <div id="header-wrap">
-                <div class="container">
-                    <!--Logo-->
-                    <div id="logo">
-                        <a href="index.php" class="logo">
-                            <img src="img/logo.png" alt="Лого">
-                        </a>
-                    </div>
-                    <!--End: Logo-->
-
-                    <!--Navigation Resposnive Trigger-->
-                    <div id="mainMenu-trigger">
-                        <button class="lines-button x"> <span class="lines"></span> </button>
-                    </div>
-                    <!--end: Navigation Resposnive Trigger-->
-
-                    <!--Navigation-->
-                    <div id="mainMenu" class="light">
-                        <div class="container">
-                            <nav>
-                                <ul>
-                                    <li><a href="index.php">Начало</a></li>
-                                    <li><a href="page-services.html">Услуги</a></li>
-                                    <li><a href="shop-sidebar-left.html">Продукти</a></li>
-                                    <li><a href="portfolio-masonry-3-title.html">Проекти</a></li>
-                                    <li><a href="blog-masonry-3.html">Блог</a></li>
-                                    <li><a href="page-faq.html">FAQ</a></li>
-                                    <li><a href="page-contact-fullwidth-map.html">Контакти</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <!--end: Navigation-->
-                </div>
-            </div>
-        </header>
-        <!--END: HEADER-->
+<?php include('header.php'); ?>
 
         <!-- SECTION IMAGE FULLSCREEN -->
         <section id="section-home" class="fullscreen background-image" style="background-image:url(img/main.jpg);})">
             <div class="container">
                 <div class="container-fullscreen text-center">
                     <div class="text-middle">
-                        <h1 data-animation="fadeInUp" data-animation-delay="700" class="m-b-0">Добре сте дошли!</h1>
-                        <h1 data-animation="fadeInUp" data-animation-delay="700" class="m-b-0">При нас времето винаги е подходящо</h1>
-                        <h5 data-animation="fadeInUp" data-animation-delay="1200">защото сами избираме вътрешния си климат</h5>
+                        <h1 data-animation="fadeInUp" data-animation-delay="700" class="m-b-0">You are welcome!</h1>
+                        <h1 data-animation="fadeInUp" data-animation-delay="700" class="m-b-0">The moment is always right with us</h1>
+                        <h4 data-animation="fadeInUp" data-animation-delay="1200">because we alone choose our indoor climate</h4>
                         <div data-animation="fadeInUp" data-animation-delay="1100">
-                            <a class="btn btn-danger" href="#section-about"><span>Заповядай</span></a>
+                            <button class="btn btn-danger" onClick="$('html, body').animate({scrollTop:document.getElementById('section-about').offsetTop}, 'slow');">Come on in</button>
                         </div>
                         <div class="scrolldown-animation" id="scroll-down">
                             <a class="scroll-to" href="#easy-fast"><img src="img/scrolldown.png" alt="">
@@ -114,21 +24,20 @@
         <!-- ABOUT US -->
         <section id="section-about" class="p-b-40">
             <div class="container">
-                <h3 class="text-center">ЗА НАС</h3>
+                <h3 class="text-center">ABOUT US</h3>
                 <div class="seperator seperator-small"></div>
                 <hr class="space">
                 <div class="row">
                     <div class="col-md-6" data-animation="fadeInUp" data-animation-delay="300">
-                        <p>"Вътрешен климат" ООД е частна фирма, създадена през 2006 година. Занимава се с разработването на проекти в областта на вентилацията, отоплението и климатизацията, както и с консултантски и инженерингови дейности и услуги.
-                            <br>
-                            <br>Фирмата работи с екип от професионалисти и с редица положителни референции от клиенти в различни области – производствени, търговски и жилищни обекти. Използвани за регулиране на различни параметри.</p>
+                        <p>The company works with a team of professionals and with a number of positive references from clients in various fields - manufacturing, commercial and residential. Various versions have evolved over the years, sometimes by accident, sometimes on purpose Various versions, commercial and residential have evolved over the years.
+                        <br><br>"Indoor Climate" Ltd. is a private company established in 2006. He is involved in the development of projects in the areas of ventilation, heating and air conditioning, as well as consultancy and engineering activities and services.
+                        </p>
                     </div>
 
                     <div class="col-md-6" data-animation="fadeInUp" data-animation-delay="600">
-                        <p> Предоставят на хората, пребиваващи в сградите (жилищни, търговски, промишлени), хигиенни и безопасни условия и определено ниво на комфорт, а в някои случаи и да се постигнат определени технологични изисквания.</p>
-                        <p> Целта е да се предоставят на хората, пребиваващи в сградите (жилищни, търговски, промишлени), хигиенни и безопасни условия и определено ниво на комфорт, а в някои случаи и да се постигнат положителни референции от клиенти в различни области.</p>
+                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.</p>
+                        <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop.</p>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -143,7 +52,7 @@
                             <div class="icon"><i class="fa fa-3x fa-globe"></i></div>
                             <div class="counter"> <span data-speed="3000" data-refresh-interval="12" data-to="114" data-from="50" data-seperator="true"></span> </div>
                             <div class="seperator seperator-small"></div>
-                            <p>НАСЕЛЕНИ МЕСТА</p>
+                            <p>LOCATIONS</p>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -151,23 +60,23 @@
                             <div class="icon"><i class="fa fa-3x fa-wrench"></i></div>
                             <div class="counter"> <span data-speed="4500" data-refresh-interval="23" data-to="5150" data-from="100" data-seperator="true"></span> </div>
                             <div class="seperator seperator-small"></div>
-                            <p>ОТРАБОТЕНИ ДНИ</p>
+                            <p>DAYS WORKED</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="text-center">
                             <div class="icon"><i class="fa fa-3x fa-users"></i></div>
-                            <div class="counter"> <span data-speed="4550" data-refresh-interval="50" data-to="14825" data-from="48" data-seperator="true"></span> </div>
+                            <div class="counter"> <span data-speed="4550" data-refresh-interval="50" data-to="9829" data-from="48" data-seperator="true"></span> </div>
                             <div class="seperator seperator-small"></div>
-                            <p>ДОВОЛНИ КЛИЕНТА</p>
+                            <p>SATISFIED CUSTOMERS</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="text-center">
                             <div class="icon"><i class="fa fa-3x fa-briefcase"></i></div>
-                            <div class="counter"> <span data-speed="3000" data-refresh-interval="50" data-to="2416" data-from="600" data-seperator="true"></span> </div>
+                            <div class="counter"> <span data-speed="3000" data-refresh-interval="50" data-to="643" data-from="600" data-seperator="true"></span> </div>
                             <div class="seperator seperator-small"></div>
-                            <p>РЕАЛИЗИРАНИ ПРОЕКТА</p>
+                            <p>FINISHED PROJECT</p>
                         </div>
                     </div>
                 </div>
@@ -180,7 +89,7 @@
         <!-- PORTFOLIO -->
         <section id="section-portfolio">
             <div class="container">
-                <h3 class="text-center">ГАЛЕРИЯ С ПРОЕКТИ</h3>
+                <h3 class="text-center">PROJECTS</h3>
                 <div class="seperator seperator-small"></div>
                 <hr class="space">
                 <div data-animation="fadeIn">
@@ -191,10 +100,10 @@
                         <div class="portfolio-item img-zoom">
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-image">
-                                    <a href="#"><img src="img/portfolio/1.jpg" alt=""></a>
+                                    <a href="img/portfolio/1.jpg"><img src="img/portfolio/1.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Хотел 'Hotel Inn' - Смолян - вентилация" data-lightbox="image" href="img/portfolio/1.jpg"><i class="fa fa-expand"></i></a>
+                                    <a title="Hotel 'Hotel Inn' - London - heating" data-lightbox="image" href="img/portfolio/1.jpg"><i class="fa fa-expand"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -207,7 +116,7 @@
                                     <a href="#"><img src="img/portfolio/2.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Механа 'Наздраве' - цялостно изграждане на отопление" data-lightbox="image" href="img/portfolio/2.jpg"><i class="fa fa-expand"></i></a>
+                                    <a title="Pub 'Cheers' - ventilation" data-lightbox="image" href="img/portfolio/2.jpg"><i class="fa fa-expand"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -220,7 +129,7 @@
                                     <a href="#"><img src="img/portfolio/3.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Механа 'Наздраве' - цялостно изграждане на отопление" data-lightbox="image" href="img/portfolio/3.jpg"><i class="fa fa-expand"></i></a>
+                                    <a title="Hotel 'Hotel Inn' - London - heating" data-lightbox="image" href="img/portfolio/3.jpg"><i class="fa fa-expand"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -233,7 +142,7 @@
                                     <a href="#"><img src="img/portfolio/4.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Хотел 'Hotel Inn' - Смолян - вентилация" data-lightbox="image" href="img/portfolio/4.jpg"><i class="fa fa-expand"></i></a>
+                                    <a title="Pub 'Cheers' - ventilation" data-lightbox="image" href="img/portfolio/4.jpg"><i class="fa fa-expand"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -246,7 +155,7 @@
                                     <a href="#"><img src="img/portfolio/5.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Хотел 'Hotel Inn' - Смолян - вентилация" data-lightbox="image" href="img/portfolio/5.jpg"><i class="fa fa-expand"></i></a>
+                                    <a title="Hotel 'Hotel Inn' - London - heating" data-lightbox="image" href="img/portfolio/5.jpg"><i class="fa fa-expand"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -259,7 +168,7 @@
                                     <a href="#"><img src="img/portfolio/6.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Механа 'Наздраве' - цялостно изграждане на отопление" data-lightbox="image" href="img/portfolio/6.jpg"><i class="fa fa-expand"></i></a>
+                                    <a title="Pub 'Cheers' - ventilation" data-lightbox="image" href="img/portfolio/6.jpg"><i class="fa fa-expand"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -272,7 +181,7 @@
                                     <a href="#"><img src="img/portfolio/7.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Механа 'Наздраве' - цялостно изграждане на отопление" data-lightbox="image" href="img/portfolio/7.jpg"><i class="fa fa-expand"></i></a>
+                                    <a title="Hotel 'Hotel Inn' - London - heating" data-lightbox="image" href="img/portfolio/7.jpg"><i class="fa fa-expand"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -285,7 +194,7 @@
                                     <a href="#"><img src="img/portfolio/8.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Хотел 'Hotel Inn' - Смолян - вентилация" data-lightbox="image" href="img/portfolio/8.jpg"><i class="fa fa-expand"></i></a>
+                                    <a title="Pub 'Cheers' - ventilation" data-lightbox="image" href="img/portfolio/8.jpg"><i class="fa fa-expand"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -298,7 +207,7 @@
                                     <a href="#"><img src="img/portfolio/9.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Механа 'Наздраве' - цялостно изграждане на отопление" data-lightbox="image" href="img/portfolio/9.jpg"><i class="fa fa-expand"></i></a>
+                                    <a title="Pub 'Cheers' - ventilation" data-lightbox="image" href="img/portfolio/9.jpg"><i class="fa fa-expand"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -311,7 +220,7 @@
                                     <a href="#"><img src="img/portfolio/10.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Хотел 'Hotel Inn' - Смолян - вентилация" data-lightbox="image" href="img/portfolio/9.jpg"><i class="fa fa-expand"></i></a>
+                                    <a title="Pub 'Cheers' - ventilation" data-lightbox="image" href="img/portfolio/9.jpg"><i class="fa fa-expand"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -329,7 +238,7 @@
         <!-- SERVICES -->
         <section id="section-services">
             <div class="container">
-                <h3 class="text-center">УСЛУГИ</h3>
+                <h3 class="text-center">SERVICES</h3>
                 <div class="seperator seperator-small"></div>
                 <hr class="space">
                 <div class="row">
@@ -338,8 +247,8 @@
                             <div class="icon">
                                 <a href="#"><i class="fa fa-weixin"></i></a>
                             </div>
-                            <h3>Консултации</h3>
-                            <p>Изготвяне на технико-икономически анализи, изготвяне на независими експертни оценки по проекти и изградени инсталации.</p>
+                            <h3>Consultations</h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                         </div>
                     </div>
                     <div class="col-md-4" data-animation="fadeInUp" data-animation-delay="200">
@@ -347,8 +256,8 @@
                             <div class="icon">
                                 <a href="#"><i class="fa fa-area-chart"></i></a>
                             </div>
-                            <h3>Проектиране</h3>
-                            <p>Изготвяне на идейни, технически и работни инвестиционни проекти на жилищни сгради, офис центрове, производствени помещения.</p>
+                            <h3>Design</h3>
+                            <p>Variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by humour.</p>
                         </div>
                     </div>
                     <div class="col-md-4" data-animation="fadeInUp" data-animation-delay="1000">
@@ -356,8 +265,8 @@
                             <div class="icon">
                                 <a href="#"><i class="fa fa-cogs"></i></a>
                             </div>
-                            <h3>Сервиз</h3>
-                            <p>Подръжка и ремонт на отоплителни, вентилационни и климатични инсталации по действащи европейски и български стандарти.</p>
+                            <h3>Service</h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                         </div>
                     </div>
                     <div class="col-md-4" data-animation="fadeInUp" data-animation-delay="400">
@@ -365,8 +274,8 @@
                             <div class="icon">
                                 <a href="#"><i class="fa fa-wrench"></i></a>
                             </div>
-                            <h3>Монтаж</h3>
-                            <p>Поставяне на отоплителни, вентилационни и климатични инсталации по действащи европейски и български стандарти и норми.</p>
+                            <h3>Installation</h3>
+                            <p>Many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some.</p>
                         </div>
                     </div>
 
@@ -375,8 +284,8 @@
                             <div class="icon">
                                 <a href="#"><i class="fa fa-bus"></i></a>
                             </div>
-                            <h3>Доставка</h3>
-                            <p>Висококачествените материали, които фирмата използва, гарантират дълъг експлоатационен период и висока надеждност при работа.</p>
+                            <h3>Delivery</h3>
+                            <p>Variations of passages of Lorem Ipsum, but the majority have suffered alteration in some form, by humour.</p>
                         </div>
                     </div>
                     <div class="col-md-4" data-animation="fadeInUp" data-animation-delay="800">
@@ -384,19 +293,17 @@
                             <div class="icon">
                                 <a href="#"><i class="fa fa-lightbulb-o"></i></a>
                             </div>
-                            <h3>Инженеринг</h3>
-                            <p>Изготвяне на технико-икономически анализи, изготвяне на независими експертни оценки по проекти и изградени инсталации.</p>
+                            <h3>Engineering</h3>
+                            <p>There are many passages of Lorem Ipsum available, but the majority have suffered alteration in some humour.</p>
                         </div>
                     </div>
-
-
                     <div class="col-md-4" data-animation="fadeInUp" data-animation-delay="1200">
                         <div class="icon-box clean small center">
                             <div class="icon">
                                 <a href="#"><i class="fa fa-calendar-check-o"></i></a>
                             </div>
-                            <h3>Абонаментна подръжка</h3>
-                            <p>Изпълнение на отоплителни, вентилационни и климатични инсталации. Изпълнение на инвеститорски контрол.</p>
+                            <h3>Subscription support</h3>
+                            <p>Many variations of passages of Lorem Ipsum, but the majority have suffered alteration in some form etc.</p>
                         </div>
                     </div>
                     <div class="col-md-4" data-animation="fadeInUp" data-animation-delay="1400">
@@ -404,8 +311,8 @@
                             <div class="icon">
                                 <a href="#"><i class="fa fa-flask"></i></a>
                             </div>
-                            <h3>Хидравличен баланс</h3>
-                            <p>Фирмата разполага с обучени специалисти за осъществяване на хидравличен баланс и диагностика на ОВК системи.</p>
+                            <h3>Hydraulic balance</h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                         </div>
                     </div>
                     <div class="col-md-4" data-animation="fadeInUp" data-animation-delay="1600">
@@ -413,8 +320,8 @@
                             <div class="icon">
                                 <a href="#"><i class="fa fa-tasks"></i></a>
                             </div>
-                            <h3>Диагностика</h3>
-                            <p>Контрол върху фактическото изпълнение на отоплителни, вентилационни и климатични инсталации.</p>
+                            <h3>Diagnostics</h3>
+                            <p>There are many variations but the majority have suffered alteration in some form passages of Lorem Ipsum.</p>
                         </div>
                     </div>
                 </div>
@@ -424,10 +331,19 @@
         <!-- end: SERVICES -->
 
         <!-- PARALLAX -->
-        <section class="p-t-150 p-b-150" data-parallax-image="img/feet.jpg">
+        <section class="p-t-150 p-b-150" data-parallax-image="img/blur.png">
             <div class="container">
-                <p class="lead text-center" style="color: #000; font-weight: 400;">
-                    Ние предоставяме на хората в жилищни, търговски, промишлени сгради хигиенни и безопасни комфорт условия определено комфорт определено ниво на комфорт, а в някои случаи постигане определени технологични изисквания. </p>
+                <p class="btn btn-danger lead text-center visible-lg">
+                    " We combine high-quality products + true professionalism + reasonable price to give our customers the best!"
+                    <sub> eng. John Watson</sub>
+                </p>
+                <p class="btn btn-danger lead text-center hidden-lg">
+                    "We combine high-quality products
+                    <br/>+ true professionalism
+                    <br/>+ reasonable price
+                    to give our customers the best!"
+                    <br/><sub> eng. John Watson</sub>
+                </p>
             </div>
         </section>
         <!-- PARALLAX -->
@@ -435,12 +351,12 @@
         <!-- BLOG -->
         <section id="section-blog">
             <div class="container">
-                <h3 class="text-center">БЛОГ</h3>
+                <h3 class="text-center">BLOG</h3>
                 <div class="seperator seperator-small"></div>
                 <hr class="space">
                 <div id="blog" class="grid-layout post-3-columns m-b-30" data-item="post-item">
 
-                    <!-- Post item-->
+                    <!-- Post Slider item-->
                     <div class="post-item border">
                         <div class="post-item-wrap">
                             <div class="post-image">
@@ -457,32 +373,32 @@
                                         </a>
                                     </div>
                                 </div>
-                                <span class="post-meta-category"><a href="">За дома</a></span>
+                                <span class="post-meta-category"><a href="">House</a></span>
                             </div>
                             <div class="post-item-description">
-                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>12 Януари, 2018</span>
-                                <h2><a href="blog-single-slider.html">Кое е най-подходящо отопление за къща</a></h2>
-                                <p>Начинът на отопление на дома може сериозно да повлияе на семейния бюджет. Конвекторът е най-удобната и разпространена форма на отопление.</p>
-                                <a href="blog-single-slider.html" class="item-link">Прочети повече <i class="fa fa-arrow-right"></i></a>
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>12 January, 2018</span>
+                                <h2><a href="blog-slider.php">Which is the most suitable heating for a house</a></h2>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in injected humour. There are many </p>
+                                <a href="blog-slider.php" class="item-link">Read morе <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                     <!-- end: Post item-->
 
-                    <!-- Post item YouTube-->
+                    <!-- Post Basic item -->
                     <div class="post-item border">
                         <div class="post-item-wrap">
                             <div class="post-image">
-                                <a href="blog-single.html">
+                                <a href="blog-single.php">
                                     <img alt="" src="img/blog/5.jpg">
                                 </a>
-                                <span class="post-meta-category"><a href="">Ефективност</a></span>
+                                <span class="post-meta-category"><a href="">Efficiency</a></span>
                             </div>
                             <div class="post-item-description">
-                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>2 Февруари, 2018</span>
-                                <h2><a href="blog-single.html">Централно отопление</a></h2>
-                                <p>Икономичен и много лесен за употреба, тя представлява най-елементарното решение за отопление във Вашия дом. Електрически конвектори.</p>
-                                <a href="blog-single.html" class="item-link">Прочети повече <i class="fa fa-arrow-right"></i></a>
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>2 February, 2018</span>
+                                <h2><a href="blog-single.php">Central heating</a></h2>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in injected humour. There are many variations </p>
+                                <a href="blog-single.php" class="item-link">Read morе <i class="fa fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -493,14 +409,14 @@
                     <div class="post-item border">
                         <div class="post-item-wrap">
                             <div class="post-video">
-                                <iframe width="560" height="320" src="https://www.youtube.com/embed/MAYOhmh1AG0" frameborder="0" allowfullscreen></iframe>
-                                <span class="post-meta-category"><a href="">Видео</a></span>
+                                <iframe width="560" height="320" src="https://www.youtube.com/embed/DjQ-Xgn9rE4" frameborder="0" allowfullscreen></iframe>
+                                <span class="post-meta-category"><a href="">Techonoly</a></span>
                             </div>
                             <div class="post-item-description">
-                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>3 Март, 2018</span>
-                                <h2><a href="blog-single-video.html">Как да изберем климатик (видео)</a></h2>
-                                <p>Защо да изберем отопление с термопомпа за дома си? Защото с термопомпа може да осигурите отопление, охлаждане и топла вода за дома си с най-ниски сметки. </p>
-                                <a href="blog-single-video.html" class="item-link">Прочети повече <i class="fa fa-arrow-right"></i></a>
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>3 March, 2018</span>
+                                <h2><a href="blog-video.php">How to choose air conditioning (video)</a></h2>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in injected humour.There are </p>
+                                <a href="blog-video.php" class="item-link">Read morе <i class="fa fa-arrow-right"></i></a>
 
                             </div>
                         </div>
@@ -514,135 +430,64 @@
         <!-- CLIENTS -->
         <section>
             <div class="container">
-                <h3 class="text-center">НАШИТЕ КЛИЕНТИ</h3>
+                <h3 class="text-center">OUR CLIENTS</h3>
                 <div class="seperator seperator-small"></div>
                 <hr class="space">
                 <div class="heading heading-center">
-                    <span class="lead">А ето и част от клиентите, с които имахме удоволствието да работим. А ето и част от клиентите,
-                        <br/>
-                        с които имахме удоволствието да работим. А ето и част от клиентите, с които имахме удоволствието да работим.
+                    <span class="lead">Over the years in which we have been on the market, we have had the chance and luck to work with many honest and serious clients. You can see here a list with some of them worth mentioning.
                     </span>
                 </div>
                 <ul class="grid grid-4-columns">
                     <li>
-                        <a data-content="Хранителна верига лидер в Европа, четвърти в света, водеща в България." title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="Магазин 'Lidl'" data-trigger="hover"><img src="images/clients/1.png" alt="Лого на Фирма">
+                        <a data-content="Global discount supermarket chain that operates over 10,000 stores across Europe and USA" title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="'LIDL' supermarket" data-trigger="hover"><img src="img/clients/1.png" alt="Лого на Фирма">
                         </a>
                     </li>
                     <li>
-                        <a data-content="Хранителна верига лидер в Европа, четвърти в света, водеща в България." title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="Магазин 'Lidl'" data-trigger="hover"><img src="images/clients/2.png" alt="Лого на Фирма">
+                        <a data-content="Global discount supermarket chain that operates over 10,000 stores across Europe and USA" title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="'LIDL' supermarket" data-trigger="hover"><img src="img/clients/2.png" alt="LIDL logo">
                         </a>
                     </li>
                     <li>
-                        <a data-content="Хранителна верига лидер в Европа, четвърти в света, водеща в България." title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="Магазин 'Lidl'" data-trigger="hover"><img src="images/clients/3.png" alt="Лого на Фирма">
+                        <a data-content="Global discount supermarket chain that operates over 10,000 stores across Europe and USA" title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="'LIDL' supermarket" data-trigger="hover"><img src="img/clients/3.png" alt="LIDL logo">
                         </a>
                     </li>
                     <li>
-                        <a data-content="Хранителна верига лидер в Европа, четвърти в света, водеща в България." title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="Магазин 'Lidl'" data-trigger="hover"><img src="images/clients/4.png" alt="Лого на Фирма">
+                        <a data-content="Global discount supermarket chain that operates over 10,000 stores across Europe and USA" title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="'LIDL' supermarket" data-trigger="hover"><img src="img/clients/4.png" alt="LIDL logo">
                         </a>
                     </li>
                     <li>
-                        <a data-content="Хранителна верига лидер в Европа, четвърти в света, водеща в България." title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="Магазин 'Lidl'" data-trigger="hover"><img src="images/clients/5.png" alt="Лого на Фирма">
+                        <a data-content="Global discount supermarket chain that operates over 10,000 stores across Europe and USA" title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="'LIDL' supermarket" data-trigger="hover"><img src="img/clients/5.png" alt="LIDL logo">
                         </a>
                     </li>
                     <li>
-                        <a data-content="Хранителна верига лидер в Европа, четвърти в света, водеща в България." title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="Магазин 'Lidl'" data-trigger="hover"><img src="images/clients/6.png" alt="Лого на Фирма">
+                        <a data-content="Global discount supermarket chain that operates over 10,000 stores across Europe and USA" title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="'LIDL' supermarket" data-trigger="hover"><img src="img/clients/6.png" alt="LIDL logo">
                         </a>
                     </li>
                     <li>
-                        <a data-content="Хранителна верига лидер в Европа, четвърти в света, водеща в България." title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="Магазин 'Lidl'" data-trigger="hover"><img src="images/clients/7.png" alt="Лого на Фирма">
+                        <a data-content="Global discount supermarket chain that operates over 10,000 stores across Europe and USA" title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="'LIDL' supermarket" data-trigger="hover"><img src="img/clients/7.png" alt="LIDL logo">
                         </a>
                     </li>
                     <li>
-                        <a data-content="Хранителна верига лидер в Европа, четвърти в света, водеща в България." title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="Магазин 'Lidl'" data-trigger="hover"><img src="images/clients/8.png" alt="Лого на Фирма">
+                        <a data-content="Global discount supermarket chain that operates over 10,000 stores across Europe and USA" title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="'LIDL' supermarket" data-trigger="hover"><img src="img/clients/8.png" alt="LIDL logo">
                         </a>
                     </li>
                     <li>
-                        <a data-content="Хранителна верига лидер в Европа, четвърти в света, водеща в България." title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="Магазин 'Lidl'" data-trigger="hover"><img src="images/clients/9.png" alt="Лого на Фирма">
+                        <a data-content="Global discount supermarket chain that operates over 10,000 stores across Europe and USA" title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="'LIDL' supermarket" data-trigger="hover"><img src="img/clients/9.png" alt="LIDL logo">
                         </a>
                     </li>
                     <li>
-                        <a data-content="Хранителна верига лидер в Европа, четвърти в света, водеща в България." title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="Магазин 'Lidl'" data-trigger="hover"><img src="images/clients/10.png" alt="Лого на Фирма">
+                        <a data-content="Global discount supermarket chain that operates over 10,000 stores across Europe and USA" title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="'LIDL' supermarket" data-trigger="hover"><img src="img/clients/10.png" alt="LIDL logo">
                         </a>
                     </li>
                     <li>
-                        <a data-content="Хранителна верига лидер в Европа, четвърти в света, водеща в България." title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="Магазин 'Lidl'" data-trigger="hover"><img src="images/clients/11.png" alt="Лого на Фирма">
+                        <a data-content="Global discount supermarket chain that operates over 10,000 stores across Europe and USA" title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="'LIDL' supermarket" data-trigger="hover"><img src="img/clients/11.png" alt="LIDL logo">
                         </a>
                     </li>
                     <li>
-                        <a data-content="Хранителна верига лидер в Европа, четвърти в света, водеща в България." title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="Магазин 'Lidl'" data-trigger="hover"><img src="images/clients/12.png" alt="Лого на Фирма">
+                        <a data-content="Global discount supermarket chain that operates over 10,000 stores across Europe and USA" title="" data-placement="top" data-toggle="popover" data-container="body" data-original-title="'LIDL' supermarket" data-trigger="hover"><img src="img/clients/12.png" alt="LIDL logo">
                         </a>
                     </li>
                 </ul>
             </div>
         </section>
 
-
-        <!-- Footer -->
-        <footer id="footer" class="footer-light">
-            <div class="footer-content" style="background-image: url('img/footer.png');">
-                <div class="container">
-                    <div class="row ">
-                        <div class="col-md-4">
-                            <!-- Footer widget area 1 -->
-                            <div class="widget clearfix widget-contact-us">
-                                <h4>Работно време</h4>
-                                <ul class="list-icon">
-                                    <li>
-                                        <i class="fa fa-clock-o"></i>Понеделник - Петък: <strong>09:00 - 17:00</strong>
-                                        <br>
-                                        <i class="fa fa-ban"></i>Събота - Неделя: <strong>Почивни дни</strong>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- end: Footer widget area 1 -->
-                        </div>
-                        <div class="col-md-4">
-                            <!-- Footer widget area 2 -->
-                            <div class="widget clearfix widget-contact-us">
-                                <h4>Лице за контакт</h4>
-                                <ul class="list-icon">
-                                    <li><i class="fa fa-phone"></i> 032 / 62-37-76 </li>
-                                    <li><i class="fa fa-user"></i> инж. Борислав Димчев </li>
-                                </ul>
-                            </div>
-                            <!-- end: Footer widget area 2 -->
-                        </div>
-                        <div class="col-md-4">
-                            <!-- Footer widget area 3 -->
-                            <div class="widget clearfix widget-contact-us">
-                                <h4>Адрес</h4>
-                                <ul class="list-icon">
-                                    <li><i class="fa fa-map-marker"></i> ул. Хан Аспарух 70, гр. Пловдив</li>
-                                    <li><i class="fa fa-envelope"></i> <a href="mailto:borislav.dimchev@indoorclimate.org">borislav.dimchev@indoorclimate.org</a></li>
-                                </ul>
-                            </div>
-                            <!-- end: Footer widget area 3 -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright-content">
-                <div class="container">
-                    <div class="copyright-text text-center">Powered by <a href="http://www.hruselinda.com" target="_blank">Hruselinda</a> &copy; 2018
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- end: Footer -->
-
-    </div>
-    <!-- end: Wrapper -->
-
-    <!-- Go to top button -->
-<a id="goToTop"><i class="fa fa-angle-up top-icon"></i><i class="fa fa-angle-up"></i></a>
-
- <!--Plugins-->
- <script src="js/jquery.js"></script>
- <script src="js/plugins.js"></script>
-
-<!--Template functions-->
- <script src="js/functions.js"></script>
-
-</body>
-
-</html>
+<?php include('footer.php'); ?>
